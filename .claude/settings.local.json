@@ -1,16 +1,1 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(python -m py_compile main.py src\\\\optimizer.py src\\\\comparador.py src\\\\journeys.py config\\\\settings.py; echo \"OK exit=$LASTEXITCODE\")",
-      "PowerShell(py -m py_compile main.py src\\\\optimizer.py src\\\\comparador.py src\\\\journeys.py config\\\\settings.py; echo \"OK exit=$LASTEXITCODE\")",
-      "PowerShell(py -c \"import gspread; print\\(gspread.__version__\\)\" 2>&1)",
-      "PowerShell(py verificar_sheets.py)",
-      "PowerShell(Write-Output \"CRED=$env:GOOGLE_SHEETS_CREDENTIALS\"; Write-Output \"ID=$env:GOOGLE_SHEETS_ID\")",
-      "PowerShell(py -m py_compile main.py src\\\\historial.py)",
-      "PowerShell(if \\($?\\) { \"OK\" })",
-      "PowerShell(Remove-Item _prueba_historial.py -Confirm:$false)",
-      "PowerShell(py -m py_compile main.py)",
-      "PowerShell(python -c \"import ast; ast.parse\\(open\\('main.py', encoding='utf-8'\\).read\\(\\)\\)\")"
-    ]
-  }
-}
+

@@ -1,0 +1,5 @@
+ortools>=9.7
+folium>=0.15
+requests>=2.31
+python-dotenv>=1.0
+gspread>=6.0

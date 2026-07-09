@@ -43,7 +43,7 @@ cp .env.example .env
 Edita `.env` y pon tus credenciales reales de Cabify. Este archivo **nunca**
 se sube a git (ya está en `.gitignore`).
 
-⚠️ **Importante**: si las credenciales que estaban en el notebook de Colab
+**Importante**: si las credenciales que estaban en el notebook de Colab
 quedaron expuestas en texto plano en algún lugar (chats, repos, capturas),
 rótalas en el panel de Cabify antes de poner este sistema en producción.
 

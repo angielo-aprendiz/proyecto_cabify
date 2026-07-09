@@ -54,7 +54,7 @@ TIENDAS = [
         ],
         "rider": {
             "name": "prueba API 2",
-            "mobile": {"mobile_num": "3227689794", "mobile_cc": "57"},
+            "mobile": {"mobile_num": " ", "mobile_cc": "57"},
         },
         "requester":"Angie Lorena Jiménez Porras"
         # Sin "requester" -> usa el requester_default (ver main()).

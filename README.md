@@ -7,7 +7,7 @@ directamente en Cabify vía API.
 
 ```
 cabify_routing/
-├── .env.example       # plantilla de credenciales (copiar a .env)
+├── .env #Credenciales de configuración
 ├── .gitignore          # protege .env y archivos generados
 ├── requirements.txt
 ├── main.py             # punto de entrada

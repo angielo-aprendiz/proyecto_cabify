@@ -1,10 +1,1 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(py -m py_compile main.py src/optimizer.py src/comparador.py config/settings.py)",
-      "PowerShell(if \\($?\\) { \"OK\" })",
-      "Bash(git fetch *)",
-      "Bash(git pull *)"
-    ]
-  }
-}
+
